@@ -7,4 +7,13 @@
 
 使用es6开发了一个彩票项目
 
+使用：
+
+使用git clone下载项目，执行npm install.
+
+执行gulp即可自动编译文件到server/public目录下
+
+执行gulp --watch 即可在local:3000端口监听文件变化，并自动编译刷新网页。
+
+
 
