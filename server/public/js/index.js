@@ -87,28 +87,8 @@ __webpack_require__(2);
 
 
 {
-  var ajax = function ajax(callback) {
-    console.log('执行');
-    setTimeout(function () {
-      callback && callback.call();
-    }, 1000);
-  };
-  ajax(function () {
-    console.log('timeout1');
-  });
-}
-{
-  var _ajax = function _ajax() {
-    console.log('执行2');
-    return new Promise(function (resolve, reject) {
-      setTimeout(function () {
-        resolve();
-      }, 1000);
-    });
-  };
-  _ajax().then(function () {
-    console.log('promise');
-  });
+    var a = "nicholas";
+    console.log(a);
 }
 
 /***/ })
